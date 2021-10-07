@@ -2,7 +2,16 @@ body{
     background-color: pink;
     font-family:cursive ;
 }
-
+.assignment{
+    display:flex;
+    padding:20px;
+    margin:10px;
+    background-color: lightgoldenrodyellow;
+}
+.assingnment img{
+    
+    padding:20px;
+}
 h1{color: darkblue ;
 text-align: center;
 }
