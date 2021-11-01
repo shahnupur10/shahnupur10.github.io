@@ -1,20 +1,36 @@
 body{
-    background-color: pink;
-    font-family:cursive ;
+    background-color:#F2F2F0;
+    font-family:cursive, 
 }
 .assignment{
     display:flex;
     padding:20px;
     margin:10px;
-    background-color: lightgoldenrodyellow;
+    background-color:#D93250;
+    border-radius: 10px;
 }
-.assingnment img{
-    
-    padding:20px;
+.assignment img{
+    margin: 10px;
+    border:4px solid #BABF21;
+
 }
-h1{color: darkblue ;
+.assignment img:hover{
+    border:4px dashed #F2F2F0;
+}
+h1{color: #BF0404;
 text-align: center;
 }
-h2{
-    color: forestgreen;
+h1:hover{color: #BABF21;
+    }
+a{
+    text-decoration:none;
+    color:#BABF21;
+}
+ 
+a:hover{
+    color: #F2F2F0;
+}
+
+p{
+    color: #F2F2F0;
 }
