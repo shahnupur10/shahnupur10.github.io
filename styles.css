@@ -2,8 +2,12 @@ body{
     background-color:#F2F2F0;
     font-family:cursive, 
 }
-.assignment{
+.assignments{
     display:flex;
+    flex-wrap: wrap;
+}
+.assignment{
+    width: 22%;
     padding:20px;
     margin:10px;
     background-color:#D93250;
@@ -12,6 +16,8 @@ body{
 .assignment img{
     margin: 10px;
     border:4px solid #BABF21;
+    display:block;
+    margin:auto;
 
 }
 .assignment img:hover{
@@ -19,6 +25,9 @@ body{
 }
 h1{color: #BF0404;
 text-align: center;
+}
+h2{
+    text-align: center;
 }
 h1:hover{color: #BABF21;
     }
